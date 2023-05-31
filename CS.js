@@ -1,0 +1,10 @@
+
+
+var vip = $request.headers;
+
+
+vip['Host'] = 'kauibo-api-mars.heart-rate168.com';
+vip['AuthDog'] = 'Bearer eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiOTczMjI0ODIwMjkwMzU1MjMtMjRiMDZlNjEtMzI1Ny00NjgyLThkZjUtMzkyODA2YmU5MGE0Iiwic2l0ZSI6Im1lbWJlciIsInJvbGUiOjAsInZlcnNpb24iOiI3LjE2Iiwic291cmNlIjoiaW9zIiwiaXAiOiIxMTIuOTYuNTMuNTAiLCJzaG93X2lkIjoiWkJFLTU4MjMyNTMiLCJleHAiOjE2ODU0NTcyMDksImlhdCI6MTY4NTQ1MDAwOSwiaXNzIjoiTm92YSIsIm5iZiI6MTY4NTQ1MDAwOSwic3ViIjoiOTczMjI0ODIwMjkwMzU1MjMtMjRiMDZlNjEtMzI1Ny00NjgyLThkZjUtMzkyODA2YmU5MGE0In0.Gsm0RjWpKvDudX9I-4wPnnT6nFEpWoPzz10gCz8ltYt7vrtr_1iMXTK5YONYINpU6xlwHMfFrk264d5jS4xafA';
+$done({ 
+  headers: vip 
+});
