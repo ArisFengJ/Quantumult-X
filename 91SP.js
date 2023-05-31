@@ -7,10 +7,10 @@ TG频道https://t.me/zczspjpd
 *******************************
 [rewrite_local]
 
-^https:\/\/appapi.+\/m_sns\/video\/apply_play_permission url script-request-header https://raw.githubusercontent.com/ArisFengJ/Quantumult-X/main/91SP.js
+^https:\/\/(appapi|h5).+m_sns\/video\/apply_play_permission url script-request-header https://raw.githubusercontent.com/ArisFengJ/Quantumult-X/main/91SP.js
 
 [mitm] 
-hostname = appapi*
+hostname = appapi*,*h5*
 
 ******************************/
 
