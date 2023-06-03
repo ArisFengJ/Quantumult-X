@@ -6,7 +6,7 @@
 [rewrite_local]
 # > 日杂相机
 
-^https:\/\/rzres86api\.imendon\.com\/v2\/(user\/profile|purchase\/vip\/verification|advert\/homelist) url script-request-header https://ghproxy.com/https://raw.githubusercontent.com/ArisFengJ/Quantumult-X/main/Rzxj.js
+^https:\/\/rzres86api\.imendon\.com\/v2\/(user\/profile|purchase\/vip\/verification|advert\/homelist) url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/ArisFengJ/Quantumult-X/main/Rzxj.js
 
 [mitm] 
 hostname =*rzres86api*
