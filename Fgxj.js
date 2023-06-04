@@ -6,7 +6,7 @@
 [rewrite_local]
 # > 复古相机
 
-^https:\/\/fz68resapi\.imendon\.com\/v2\/(user\/profile|purchase\/vip\/verification) url script-request-header https://ghproxy.com/https://raw.githubusercontent.com/ArisFengJ/Quantumult-X/main/Fgxj.js
+^https:\/\/fz68resapi\.imendon\.com\/v2\/(user\/profile|purchase\/vip\/verification) url script-response-body https://ghproxy.com/https://raw.githubusercontent.com/ArisFengJ/Quantumult-X/main/Fgxj.js
 
 [mitm] 
 hostname =* fz68resapi*
